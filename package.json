@@ -1,7 +1,7 @@
 {
   "name": "jql-tools",
   "description": "A set of tools for writing Mixpanel JQL queries",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "author": "jessepollak",
   "repository": "clef/jql-tools",
@@ -54,6 +54,5 @@
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"
   },
-  "peerDependencies": {
-  }
+  "peerDependencies": {}
 }
