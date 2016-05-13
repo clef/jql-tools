@@ -8,6 +8,12 @@
     "babel/generator-star-spacing": 1
   },
   "env": {
-    "browser": true
+    "browser": true,
+    "mocha": true
+  },
+  "globals": {
+    "chai": true,
+    "expect": true,
+    "sinon": true
   }
 }
