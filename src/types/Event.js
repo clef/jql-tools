@@ -9,6 +9,7 @@ class Event {
       properties = name
     }
     this.event = name
+    this.properties = properties
     this.selector = properties.selector
   }
 }

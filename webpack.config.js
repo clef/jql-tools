@@ -26,17 +26,10 @@ module.exports = {
       loader: 'eslint-loader'
     }],
     loaders: [
-,
       {
         test: /\.js$/,
-        loader: 'babel-loader',
-        query: {
-          presets: [
-            'es2015',
-          ]
-        }
-      },
-
+        loader: 'babel-loader'
+      }
     ]
   },
   resolve: {
